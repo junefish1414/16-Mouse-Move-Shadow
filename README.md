@@ -22,7 +22,7 @@
 ## CSS / HTMLm語法
 ### 一、contenteditable屬性
 即使不靠vue的雙向綁定，只需要加上一個`contenteditable`屬性就可以直接讓HTML元件具備編輯的功能。
-```htmlmixed=
+```htmlmixed
 <div class="hero">
     <h1 contenteditable>🔥WOAH!</h1>
 </div>
@@ -35,13 +35,13 @@
 
 > text-shadow: X 軸方向的陰影 Y 軸方向的陰影 模糊範圍 陰影顏色;
 
-```css=
+```css
 /* offset-x | offset-y | blur-radius | color */
 text-shadow: 1px 1px 2px black;
 ```
 > 1. 程式裏寫到下面這段，其實就是為 JavaScript 那邊綁定為 text 的 h1，動態加上文字陰影的 style。
 > 2. text-shadow 可以設定為多重陰影，所以如下方程式碼，就設定了四個陰影。
-```javascript=
+```javascript
 text.style.textShadow = `
 	${xWalk}px ${yWalk}px 0px rgba(255, 255, 0,0.7),
 	${xWalk * -1}px ${yWalk}px 0px rgba(255, 0, 255,0.7),
@@ -65,7 +65,7 @@ text.style.textShadow = `
 > 如果小數位的部分值大於 0.5, 這個值將會進位. 如果小數位的部分值小於 0.5, 這個值將不會進位.
 
 
-```javascript=
+```javascript
 // Returns the value 20
 x = Math.round(20.49);
 
@@ -94,14 +94,14 @@ x = Math.round(-20.5);
 
 ### Array Destructuring 陣列的解構賦值
 * 在 ES6 之前，賦值給一個變量，只能用指定的方式：
-```javascript=
+```javascript
 const a = "apple";
 const b = "banana";
 const c = "orange";
 ```
 
 * ES6之後，你可以用Destructuring這樣寫：
-```javascript=
+```javascript
 const array = ["apple","banana","orange"];
 const [a, b, c] = array;
 
