@@ -7,7 +7,7 @@
 ![](https://i.imgur.com/UqsCp53.gif)
 
 
-[DEMO](https://codepen.io/yyfish1414/pen/wvqKGmO)  |  [Code](https://junefish1414.github.io/16-Mouse-Move-Shadow/)
+[DEMO](https://junefish1414.github.io/16-Mouse-Move-Shadow/)  |  [Code](https://github.com/junefish1414/16-Mouse-Move-Shadow)
 
 ## HTML / CSS 筆記摘要：
 1. [(HTML5)可編輯的Table，contenteditable屬性](#一contenteditable屬性)
