@@ -1,14 +1,3 @@
-# 16-Mouse-Move-Shadow
-JavaScript 30 - 第16(天)個挑戰
-滑鼠移動時產生的文字陰影效果
-
-<style>
-* {
-    line-height:180%;
-}
-
-</style>
-###### tags: (JavaScript 30) 
 
 # DAY 16 - Mouse Move Shadow  筆記與心得
 
@@ -43,15 +32,15 @@ JavaScript 30 - 第16(天)個挑戰
 </br>
 
 ### 二、text-shadow的設定
-:::warning
-text-shadow: X 軸方向的陰影 Y 軸方向的陰影 模糊範圍 陰影顏色;
-:::
+
+> text-shadow: X 軸方向的陰影 Y 軸方向的陰影 模糊範圍 陰影顏色;
+
 ```css=
 /* offset-x | offset-y | blur-radius | color */
 text-shadow: 1px 1px 2px black;
 ```
-1. 程式裏寫到下面這段，其實就是為 JavaScript 那邊綁定為 text 的 h1，動態加上文字陰影的 style。
-2. text-shadow 可以設定為多重陰影，所以如下方程式碼，就設定了四個陰影。
+> 1. 程式裏寫到下面這段，其實就是為 JavaScript 那邊綁定為 text 的 h1，動態加上文字陰影的 style。
+> 2. text-shadow 可以設定為多重陰影，所以如下方程式碼，就設定了四個陰影。
 ```javascript=
 text.style.textShadow = `
 	${xWalk}px ${yWalk}px 0px rgba(255, 255, 0,0.7),
@@ -72,9 +61,9 @@ text.style.textShadow = `
 
 ### 一、Math.round()
 `Math.round()` 函數回傳四捨五入後的近似值.
-:::warning
-如果小數位的部分值大於 0.5, 這個值將會進位. 如果小數位的部分值小於 0.5, 這個值將不會進位.
-:::
+
+> 如果小數位的部分值大於 0.5, 這個值將會進位. 如果小數位的部分值小於 0.5, 這個值將不會進位.
+
 
 ```javascript=
 // Returns the value 20
@@ -95,9 +84,9 @@ x = Math.round(-20.5);
 所謂的`Destructuring`，就如其字面意思，把東西解構再賦值，相信到這裡可能還是有點抽象，沒關係我們來看個例子。
 </br>
 
-:::warning
-**正式定義**：ES6 的 destructuring assignment，可以用來從陣列或物件中抽取 (destructuring) 值出來指定 (assignment) 給變數。
-:::
+
+>**正式定義**：ES6 的 destructuring assignment，可以用來從陣列或物件中抽取 (destructuring) 值出來指定 (assignment) 給變數。
+
 
 
 
