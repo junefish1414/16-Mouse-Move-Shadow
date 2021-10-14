@@ -21,14 +21,14 @@ JavaScript 30 - 第16(天)個挑戰
 [DEMO](https://codepen.io/yyfish1414/pen/wvqKGmO)  |  [Code](https://junefish1414.github.io/16-Mouse-Move-Shadow/)
 
 ## HTML / CSS 筆記摘要：
-1. [(HTML5)可編輯的Table，contenteditable屬性](#一、contenteditable屬性)
-2. [(CSS) text-shadow的設定](#二、text-shadow的設定)
+1. [(HTML5)可編輯的Table，contenteditable屬性](#一contenteditable屬性)
+2. [(CSS) text-shadow的設定](#二text-shadow的設定)
 
 
 ## JavaScript 筆記摘要：
-1. [Math.round()的用法](#一、Mathround)
-2. [ES6的解構賦值](#二、ES6陣列和物件的解構賦值)
-3. [JavaScript的offset家族](#三、JavaScript的offset家族)
+1. [Math.round()的用法](#一Mathround)
+2. [ES6的解構賦值](#二ES6陣列和物件的解構賦值)
+3. [JavaScript的offset家族](#三JavaScript的offset家族)
 
 ## CSS / HTMLm語法
 ### 一、contenteditable屬性
